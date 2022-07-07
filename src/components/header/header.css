@@ -1,0 +1,94 @@
+.site-header {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .site-header--dark-mode {
+    background-color: #2B3844;
+    color: #fff;
+  }
+  
+  .site-header--dark-mode .site-header__mode-btn {
+    color: #fff;
+  }
+  
+  .site-header--dark-mode .site-header__mode-btn-inner path {
+    stroke: #fff;
+  }
+  
+  .site-header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .site-header__heading {
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+  .site-header__mode-btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  
+  }
+  .site-header__mode-btn:hover {
+    opacity: 0.8;
+  }
+
+  .site-header__mode-btn:active {
+      opacity: 0.6;
+    }
+
+  .site-header__mode-btn-inner {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .site-header__mode-img {
+    margin-right: 10px;
+  }
+  
+  
+  
+  /* @include breakpoint-down(470px) {
+  
+    .site-header__heading {
+      font-size: 20px;
+      line-height: 1;
+    }
+  
+  }
+  
+  @include breakpoint-down(350px) {
+  
+    .site-header__heading {
+      font-size: 18px;
+      line-height: 1;
+    }
+  
+    .site-header__mode-btn {
+      font-size: 14px;
+    }
+  
+  }
+  
+  @include breakpoint-down(320px) {
+  
+    .site-header__heading {
+      font-size: 16px;
+      line-height: 1;
+    }
+  
+    .site-header__mode-btn-txt {
+      display: none;
+    }
+  
+  }
+   */
